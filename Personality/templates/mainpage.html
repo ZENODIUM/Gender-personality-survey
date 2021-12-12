@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <title>Personality test</title>
+    <style>
+body {
+  background-image: url("/static/paper.jpg");
+  background-repeat: no-repeat;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #A9A9A9;
+}
+</style>
+</head>
+<body>
+    <div align = "center">
+    <h1 style="background-color:darkgrey;">Gender Personality test</h1>
+    <img src = "/static/Mainpage.jpg" alt = "Main">
+    </div>
+    <div align = "center">
+     <a href="{{url_for('page1')}}">
+        <button class = "button">
+            Start
+        </button>
+    </a>
+    </div>
+    </body>
+<footer>
+    Zenosurveys © 2021 All Rights Reserved.
+    This is only a rough estimation
+</footer>
+</html>

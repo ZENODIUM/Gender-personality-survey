@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <title>Survey</title>
+    <style>
+  body {
+  background-image: url("/static/paper.jpg");
+  background-repeat: no-repeat;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #A9A9A9;
+}
+
+
+</style>
+</head>
+<body>
+
+  <form method="POST" action="/page1">
+<b>Are you assertive ? (being self-assured)</b>
+  <label for="Never">
+  <input id="Never" type="radio" name="scale1" value = "Never" required>Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale1" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale1" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale1" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale1" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<b>Are you Empathetic? (Emotionally supportive)</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale2" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale2" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale2" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale2" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale2" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Apathetic ? (No reaction)</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale3" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale3" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale3" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale3" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale3" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<b>Are you controlled ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale4" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale4" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale4" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale4" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale4" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<b>Talkative ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale5" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale5" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale5" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale5" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale5" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Focused ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale6" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale6" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale6" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale6" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale6" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Manipulative ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale7" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale7" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale7" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale7" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale7" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Co dependency ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale8" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale8" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale8" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale8" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale8" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you truthful ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale9" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale9" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale9" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale9" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale9" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Analytical ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale10" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale10" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale10" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale10" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale10" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you happy ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale11" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale11" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale11" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale11" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale11" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<b>Ever felt jealous of someone ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale12" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale12" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale12" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale12" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale12" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you Sincere ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale13" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale13" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale13" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale13" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale13" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Do you use cuss words ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale14" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale14" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale14" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale14" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale14" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<b>Do you have fixed goal(s) ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale15" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale15" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale15" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale15" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale15" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Do you feel shy ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale16" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale16" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale16" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale16" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale16" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Do you get angry ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale17" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale17" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale17" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale17" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale17" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you humble ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale18" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale18" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale18" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale18" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale18" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you competetive ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale19" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale19" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale19" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale19" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale19" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you moody ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale20" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale20" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale20" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale20" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale20" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Do you multitask ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale21" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale21" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale21" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale21" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale21" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+
+<b>Are you selfish ?</b>
+<label for="Never">
+  <input id="Never" type="radio" name="scale22" value = "Never" required >Never
+</label>
+<label for="Sometimes">
+  <input id="Sometimes" type="radio" name="scale22" value = "Sometimes">Sometimes
+</label>
+<label for="Maybe">
+  <input id="Maybe" type="radio" name="scale22" value = "Maybe">Maybe
+</label>
+<label for="Mostly">
+  <input id="Mostly" type="radio" name="scale22" value = "Mostly">Mostly
+</label>
+<label for="Always">
+  <input id="Always" type="radio" name="scale22" value = "Always">Always
+</label>
+<br>
+<br>
+<br>
+<div align = "center">
+<input type = "submit",value = "Submit">
+</div>
+</form>
+
+</body>
+
+</html>
