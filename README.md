@@ -2,6 +2,11 @@
 
 The Personality Test Web Application is a Flask-based web application that allows users to take a personality test and receive their results based on their answers. This application is designed to provide insights into an individual's personality based on their responses to a set of questions.
 
+## Sample screenshots
+![Output1](./per_output.png)
+![Output2](./per_output2.png)
+
+
 ## Features
 
 - Interactive personality test with multiple-choice questions.
